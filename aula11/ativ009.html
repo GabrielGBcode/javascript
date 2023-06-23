@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nacionalidade</title>
+    <link rel="stylesheet" href="../estilos/style.css" />
+  </head>
+  <body>
+    <h1>Qual sua Nacionalidade?</h1>
+    <label for="ipais">Qual país você nasceu? </label>
+    <input
+      type="text"
+      name="pais"
+      id="ipais"
+      placeholder="Ex.: Brasil"
+      required
+    />
+    <input type="button" value="Analisar" onclick="verificar()" />
+    <div id="res"></div>
+    <script>
+      function verificar() {
+        let pais = window.document.querySelector("input#ipais").value;
+        let res = window.document.querySelector("div#res");
+        if (
+          pais.toLowerCase() == "brasil" ||
+          pais.toLowerCase() == "brazil" ||
+          pais.toLowerCase() == "br"
+        ) {
+          res.innerHTML = `<p>Você é <strong>brasileirinho!</strong></p>`;
+          res.innerHTML += `<p>Brasil sil sil sil</p>`;
+        } else {
+          res.innerHTML = `<p>Pra gringo é mais caro!!</p>`;
+        }
+      }
+    </script>
+  </body>
+</html>
