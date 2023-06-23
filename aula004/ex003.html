@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primeiro Programa</title>
+    <link rel="stylesheet" href="../estilos/style.css" />
+  </head>
+  <body>
+    <h1>Olá, Mundo!</h1>
+    <p>Me livrei da maldição</p>
+    <script>
+      let n1 = window.prompt("Digite um número!");
+      let n2 = window.prompt("Digite outro número!");
+      let soma = Number.parseInt(n1) + Number.parseFloat(n2);
+      window.alert(`A soma dos valores é: ${soma}`);
+      // transformar em tipo number:
+      // Number(n) - JS determina sozinho
+      // Number.parseInt(n) - Inteiro
+      // Number.parseFloat(n) - Real
+
+      // transformar em tipo string:
+      // String(n)
+      // n.toString()
+
+      // -----------------------------------------------
+
+      // let s = "Javascript"
+      // 'Estou aprendendo s' -> Não faz interpolação
+      // 'Estou aprendendo ' + s -> Usa concatenação
+      // `Estou aprendendo ${s}` -> Usa tamplate string
+
+      // -----------------------------------------------
+
+      // let s = "JavaScript"
+      // s.length -> Quantos caracteres a string tem
+      // s.toUpperCase() -> tudo para 'MAIÚSCULAS'
+      // s.toLowerCase() -> tudo para 'minúsculas'
+    </script>
+  </body>
+</html>

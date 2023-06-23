@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primeiro Programa</title>
+    <link rel="stylesheet" href="../estilos/style.css" />
+  </head>
+  <body>
+    <h1>Olá, Mundo!</h1>
+    <p>Me livrei da maldição</p>
+    <script>
+      let nome = window.prompt("Qual o seu nome?");
+      document.write(`Seu nome tem ${nome.length} letras!<br>`);
+      document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()}<br>`);
+      document.write(`Seu nome todo em minúsculas é ${nome.toLowerCase()}<br>`);
+
+      // let n1 = 1543.5
+      // 1543.5
+      // n1.toFixed(2)
+      // 1543.50
+
+      // n1.toFixed(2).replace('.', ',')
+      // 1543,50
+
+      // formatação de moeda
+      // n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+    </script>
+  </body>
+</html>
