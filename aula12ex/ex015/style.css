@@ -22,12 +22,6 @@ section {
   box-shadow: 5px 5px 10px #00000080;
 }
 
-img {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-}
-
 footer {
   font-size: 1em;
   font-style: italic;
