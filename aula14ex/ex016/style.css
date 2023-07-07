@@ -1,0 +1,30 @@
+:root {
+  --preto: #161616;
+  --branco: #ffffff;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+div#main {
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 5px 20px;
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+body {
+  background-color: var(--preto);
+  color: var(--branco);
+}
+
+footer {
+  text-align: center;
+}

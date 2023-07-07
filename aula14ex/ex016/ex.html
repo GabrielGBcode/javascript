@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primeiro Programa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Vamos Contar!</h1>
+    <div id="main">
+      <p>
+        <label for="iini">Início:</label>
+        <input type="number" name="ini" id="iini" required />
+      </p>
+      <p>
+        <label for="ifim">Fim:</label>
+        <input type="number" name="fim" id="ifim" required />
+      </p>
+      <p>
+        <label for="ipas">Passo:</label>
+        <input type="number" name="pas" id="ipas" required min="1" />
+      </p>
+      <input type="button" value="Contar" onclick="contar()" />
+      <div id="res">Preparando contagem</div>
+    </div>
+    <footer>
+      <p>&copy; <strong>Gabriel Gomnes</strong></p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
