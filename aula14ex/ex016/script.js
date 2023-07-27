@@ -11,6 +11,7 @@ function contar() {
     window.alert("Passo Inválido! Considerando PASSO 1");
     pas_f = 1;
   }
+  res.innerHTML = "";
   if (ini_f < fim_f) {
     res.innerHTML = "Contando... <br>";
     for (let count = ini_f; count <= fim_f; count += pas_f) {

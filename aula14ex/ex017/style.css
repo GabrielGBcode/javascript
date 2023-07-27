@@ -11,3 +11,7 @@ body {
   background-color: var(--preto);
   color: var(--branco);
 }
+
+select {
+  margin-top: 10px;
+}
