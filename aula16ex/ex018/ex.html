@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analizador de númeors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Analisando Números</h1>
+    </header>
+    <section>
+      <div>
+        <label for="inum"
+          >Número (entre 1 e 100): <input type="number" name="num" id="inum" />
+          <input type="button" value="Adicionar" onclick="add()" />
+          <br />
+          <select name="lista" id="ilista" size="6"></select>
+          <br />
+          <input type="button" value="Finalizar" onclick="fin()" />
+        </label>
+      </div>
+      <div><div id="res"></div></div>
+    </section>
+    <footer>
+      <p>&copy; Gabriel GB</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

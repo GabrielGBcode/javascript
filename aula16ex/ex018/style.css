@@ -1,0 +1,18 @@
+:root {
+  --preto: #161616;
+  --branco: #ffffff;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--preto);
+  color: var(--branco);
+}
+
+select#ilista {
+  margin-top: 10px;
+  width: 200px;
+}
