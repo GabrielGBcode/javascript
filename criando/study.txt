@@ -1,0 +1,19 @@
+Coisas a aprofundar:
+    functions
+        - Arrow Function
+        - Anonymous functions
+        - IIFE
+
+    Objects
+
+    Modularização
+
+    RegEx
+        - Expressões regulares
+
+    JSON
+
+    AJAX
+        
+    NodeJs
+        - Trabalhar do lado do cliente
